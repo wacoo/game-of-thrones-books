@@ -1,0 +1,66 @@
+.cell-detail {
+  height: 200px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  color: #fff;
+}
+
+.cell-detail:nth-child(even) {
+  background-color: #004d00;
+}
+
+.cell-detail:nth-child(odd) {
+  background-color: #022b02;
+}
+
+.cell-detail h2 {
+  width: 150px;
+}
+
+.data {
+  width: 150px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.character-sub {
+  width: 100%;
+}
+
+.character-main img {
+  width: 150px;
+}
+
+.character-main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #267c26;
+}
+
+.character-main i {
+  margin: 12px;
+  font-size: 30px;
+  color: #fff;
+}
+
+.character-main div {
+  display: flex;
+  width: 100%;
+  height: 150px;
+  background-color: #267c26;
+  margin: 0 12px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.character-main h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: #fff;
+}
