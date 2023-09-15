@@ -8,7 +8,7 @@ import { useNavigate } from 'react-router-dom';
 const Books = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
-  const books = useSelector((state) => state.books.books[0]) ?? [
+  const books = useSelector((state) => state.books.books) ?? [
     {
       name: '',
       authors: [],
