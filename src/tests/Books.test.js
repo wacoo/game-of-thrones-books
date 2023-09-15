@@ -24,21 +24,21 @@ const fakeData = {
       name: 'A Game of Thrones',
       authors: ['George R.R Martin'],
       characterData: [
-        {          
+        {
           name: 'Walder',
-          gender: 'Male'
-        }
-      ]
+          gender: 'Male',
+        },
+      ],
     },
     {
       name: 'A Clash of Kings',
       authors: ['George R.R Martin'],
       characterData: [
-        {          
+        {
           name: 'Walder',
-          gender: 'Male'
-        }
-      ]
+          gender: 'Male',
+        },
+      ],
     },
   ],
 };

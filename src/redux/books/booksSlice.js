@@ -36,7 +36,6 @@ const fetchBooks = createAsyncThunk('Song/books', async () => {
 
     return booksWithCharacterData;
   } catch (error) {
-    console.error(`Error fetching books: ${error}`);
     throw error;
   }
 });
