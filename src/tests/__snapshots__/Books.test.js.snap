@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test components render Tests Character 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="character-main"
+  >
+    <a
+      href="/"
+    >
+      <i
+        className="fa fa-arrow-circle-left"
+      />
+    </a>
+    <div>
+      <h2>
+        Walder
+      </h2>
+    </div>
+  </div>
+  <div
+    className="character-sub"
+  >
+    <p>
+      No character data available
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Test components render Tests Home 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="main-area"
+  >
+    <input
+      onChange={[Function]}
+      placeholder="Search..."
+      type="text"
+    />
+  </div>
+  <div
+    className="sub-area"
+  >
+    <button
+      className="cell"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundRepeat": "no-repeat",
+          "backgroundSize": "contain",
+        }
+      }
+      type="button"
+    >
+      <div
+        className="inside-icon-wrapper"
+      >
+        <i
+          className="fa fa-arrow-circle-right"
+        />
+      </div>
+      <div
+        className=""
+      >
+        <h2>
+          A Game of Thrones
+        </h2>
+        <div
+          className="books"
+        >
+          Author: George R.R Martin
+          <br />
+          ISBN: undefined
+          <br />
+          No. of Page: undefined
+          <br />
+          Publusher: undefined
+          <br />
+          Release date: undefined
+        </div>
+      </div>
+    </button>
+    <button
+      className="cell"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundRepeat": "no-repeat",
+          "backgroundSize": "contain",
+        }
+      }
+      type="button"
+    >
+      <div
+        className="inside-icon-wrapper"
+      >
+        <i
+          className="fa fa-arrow-circle-right"
+        />
+      </div>
+      <div
+        className=""
+      >
+        <h2>
+          A Clash of Kings
+        </h2>
+        <div
+          className="books"
+        >
+          Author: George R.R Martin
+          <br />
+          ISBN: undefined
+          <br />
+          No. of Page: undefined
+          <br />
+          Publusher: undefined
+          <br />
+          Release date: undefined
+        </div>
+      </div>
+    </button>
+  </div>
+</div>
+`;
